@@ -1,5 +1,5 @@
 {
-    "name": "balancer/b2f-mail",
+    "name": "balancer/b2-mail",
     "description": "Mail modules for BORS© Framework",
     "license": "GPL-3.0",
     "authors": [
