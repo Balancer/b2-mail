@@ -1,22 +1,24 @@
 {
-    "name": "balancer/b2-mail",
-    "description": "Mail modules for BORS© Framework",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Balancer",
-            "email": "balancer@balancer.ru"
-        }
-    ],
+	"name": "balancer/b2-mail",
+	"description": "Mail modules for BORS© Framework",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
 
 	"prefer-stable": true,
 	"minimum-stability": "dev",
 
-    "require": {
-		"balancer/b2-core": "*"
-    },
+	"require": {
+		"balancer/b2-core": "*",
+		"nette/mail": "*",
+		"michelf/php-markdown": "*"
+	},
 
-    "autoload": {
+	"autoload": {
 		"psr-4": {
 			"B2\\": "./"
 		}
