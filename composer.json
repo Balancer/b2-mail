@@ -1,0 +1,24 @@
+{
+    "name": "balancer/b2f-mail",
+    "description": "Mail modules for BORS© Framework",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+    "require": {
+		"balancer/b2-core": "*"
+    },
+
+    "autoload": {
+		"psr-0": {
+			"B2": "./"
+		}
+	}
+}
