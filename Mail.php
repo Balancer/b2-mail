@@ -72,7 +72,7 @@ class Mail
 //		$this->mail->setBody($this->content()->text());
 		$this->mail->setBody($this->text);
 //		$this->mail->setHTMLBody($this->content());
-		$this->mail->setHTMLBody($this->html);
+		$this->mail->setHTMLBody($this->html, '/home/balancer/bors/composer-mail/vendor/balancer/b2-airbase-mail');
 
 		$mailer = new \Nette\Mail\SendmailMailer;
 		$mailer->send($this->mail);
